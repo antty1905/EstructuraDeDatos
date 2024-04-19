@@ -24,3 +24,12 @@ else
 {
     Console.WriteLine("El numero es impar");
 }
+
+//3) Pide la base y la altura de un triángulo al usuario y calcula su área. 
+Console.WriteLine("Ingrese la medida de la Base del triangulo");
+int bas =int.Parse(Console.ReadLine());
+Console.WriteLine("Ingrese la medida de la altura del triangulo");
+int alt = int.Parse(Console.ReadLine());
+
+int area = (bas*alt)/2;
+Console.WriteLine("El area del triangulo es :\t"+ area + "cm2");
